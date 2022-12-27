@@ -27,6 +27,9 @@ public class VariableDemo {
 		System.out.println("Integer 2: " + i);
 	}
 
+	float percent1 = 5.5f; // float data type should have f followed by value
+
+	double percent2 = 5.5;
 }
 
 //Integer 1: 5
