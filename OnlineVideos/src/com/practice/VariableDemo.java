@@ -31,8 +31,40 @@ public class VariableDemo {
 
 		double percent2 = 5.5;
 		System.out.println("Double value: " + percent2);
+
+		long longValue = 500l; // long data type should have l followed by value (specify the number and l)
+		System.out.println("Long Value: " + longValue);
+
+		char c = 'A';
+		System.out.println("Character value 1: " + c);
+
+		c = 66; // 66 is ASCII value for character B (American standard code for information
+				// interchange
+		System.out.println("Character value changes: " + c);
+
+		double doubleValue1 = 5; // 5 is int value , but double can hold, bcz it is implicit conversion or
+									// UP CASTING (lower data type to higher data type)
+		System.out.println("Double value: " + doubleValue1);
+
+		// int intValue = 5.6; --> Compilation error, bcz higher data type to lower data
+		// type definition is not supported
+		int intValue = (int) 5.6; // This is DOWN CASTING
+		System.out.println("Integer value: " + intValue);
+
 	}
 }
 
 //Integer 1: 5
 //Integer 2: 6
+//Float value: 5.5
+//Double value: 5.5
+//Long Value: 500
+//Character value 1: A
+//Character value changes: B
+//Double value: 5.0
+//Integer value: 5
+
+// CONVERSION CHAIN
+
+//BYTE -> SHORT -> INT -> LONG -> FLOAT-> DOUBLE
+//CHAR -> INT -> LONG -> FLOAT-> DOUBLE
