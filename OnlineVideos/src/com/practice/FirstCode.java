@@ -4,6 +4,8 @@
 // Variables - out, args
 // method - main, println
 
+package com.practice;
+
 public class FirstCode {
 
 	public static void main(String[] args) {
@@ -12,3 +14,7 @@ public class FirstCode {
 		
 	}
 }
+
+
+// OUTPUT
+// Hello World!
