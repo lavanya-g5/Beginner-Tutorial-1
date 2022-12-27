@@ -25,11 +25,13 @@ public class VariableDemo {
 		// Assigning new value to variable i
 		i = 6;
 		System.out.println("Integer 2: " + i);
+
+		float percent1 = 5.5f; // float data type should have f followed by value
+		System.out.println("Float value: " + percent1);
+
+		double percent2 = 5.5;
+		System.out.println("Double value: " + percent2);
 	}
-
-	float percent1 = 5.5f; // float data type should have f followed by value
-
-	double percent2 = 5.5;
 }
 
 //Integer 1: 5
