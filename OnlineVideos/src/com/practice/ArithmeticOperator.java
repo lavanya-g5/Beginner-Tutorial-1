@@ -1,6 +1,6 @@
 /*
  * ARITHMETIC OPERATOR: (+, -, *, /, %)
- * BITWISE OPERATOR: (&&, ||, ~)
+ * BITWISE OPERATOR: (<<, >>)
  * RELATIONAL OPERATOR: (<, >, <<, >>, !=)
  * LOGICAL OPERATOR
  */
@@ -58,19 +58,20 @@ public class ArithmeticOperator {
 	}
 }
 
-// OUTPUT
-//Addition of m and n is: 8
-//----------------------------------
-//Subtraction of m and n is: 4
-//----------------------------------
-//Multiplication of m and n is: 12
-//----------------------------------
-//Division of m and n is: 3
-//Division operator gives quotient as result: 3
-//Division of x and y that is 6 & 4 is: 1 (here decimal part is chopping off...)
-//Changing data type from int to double to get the decimal part of Division: 1.0
-//Upcasting int to double to get decimal part & output 1.5 as expected: 1.5
-//----------------------------------
-//Modulus of m and n is: 0
-//Modulus operator gives remainder as result: 0
-//Modulus of a & b is: 2
+/*OUTPUT
+Addition of m and n is: 8
+----------------------------------
+Subtraction of m and n is: 4
+----------------------------------
+Multiplication of m and n is: 12
+----------------------------------
+Division of m and n is: 3
+Division operator gives quotient as result: 3
+Division of x and y that is 6 & 4 is: 1 (here decimal part is chopping off...)
+Changing data type from int to double to get the decimal part of Division: 1.0
+Upcasting int to double to get decimal part & output 1.5 as expected: 1.5
+----------------------------------
+Modulus of m and n is: 0
+Modulus operator gives remainder as result: 0
+Modulus of a & b is: 2
+*/
