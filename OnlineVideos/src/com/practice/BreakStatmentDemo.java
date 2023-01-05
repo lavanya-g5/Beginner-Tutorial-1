@@ -22,6 +22,14 @@ public class BreakStatmentDemo {
 	}
 }
 
+
+/*Difference between continue & break ?
+ * 
+ * In continue, it will skip the current iteration, and it will complete the remaining iterations.
+ * 
+ * The Break statement, will break the entire loop, so it will not allow any further statement to be executed.
+ */
+
 /* OUTPUT
 Before break statement: 1
 Before break statement: 2
