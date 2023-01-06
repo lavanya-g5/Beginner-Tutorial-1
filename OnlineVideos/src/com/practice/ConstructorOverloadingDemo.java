@@ -1,5 +1,6 @@
 /*
  * Constructor overloading 
+ * We can have multiple constructor, but make sure that every constructor have different signature(parameters)
  */
 
 package com.practice;
