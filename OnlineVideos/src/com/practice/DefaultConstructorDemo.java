@@ -1,3 +1,7 @@
+/*
+ * If you dont have any constructor, by default your JVM/System will give you one constructor, thats why it is called as Default Constructor
+ */
+
 package com.practice;
 
 class DefaultConstructor {
